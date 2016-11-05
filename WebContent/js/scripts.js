@@ -18,6 +18,7 @@ Weather.prototype.getWeather = function(zipcode) {
       $('#first-body').text("Dance like no one is watching! Or try a local dance class.");
       $('#second-title').text("Yoga");
       $('#second-body').text("Oooommmm");
+      
       $('#third-title').text("Swimming");
       $('#third-body').text("Laps at your local gym. Try for 500 meters!");
     }
