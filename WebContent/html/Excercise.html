@@ -1,4 +1,3 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -7,16 +6,15 @@
 <meta name="author" content="SindevoThemes" />
 <meta name="description" content="Get in the spotlight" />
 <meta name="keywords" content="premium css templates, premium wordpress themes, SindevoThemes, themeforest" />
-<title>Power Gym | Responsive Fitness Club Template</title>
+<title>Get(F)it</title>
 <link rel="stylesheet" type="text/css" media="all" href="http://themes.sindevo.com/power-gym-html/style.css" />
 <link rel="stylesheet" href="http://themes.sindevo.com/power-gym-html/prettyphoto/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
 <link href="http://fonts.googleapis.com/css?family=Terminal+Dosis" rel="stylesheet" type="text/css" />
 <!-- jQuery -->
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-<!-- Twitter Feed -->
-<script type="text/javascript" src="http://themes.sindevo.com/power-gym-html/js/twitter/jquery.tweet.js" charset="utf-8"></script>
-<!-- FlexSlider -->
-<script type="text/javascript" src="http://themes.sindevo.com/power-gym-html/js/jquery.flexslider-min.js"></script>
+<script
+src="https://code.jquery.com/jquery-3.1.1.min.js"
+integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+crossorigin="anonymous"></script>
 <!-- PrettyPhoto -->
 <script src="http://themes.sindevo.com/power-gym-html/js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript" src="http://themes.sindevo.com/power-gym-html/js/custom.quicksand.js"></script>
@@ -25,117 +23,74 @@
 <!-- Responsive Carousel -->
 <script type="text/javascript" src="http://themes.sindevo.com/power-gym-html/js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="http://themes.sindevo.com/power-gym-html/js/jquery.elastislide.js"></script>
-
-
-<link href="./css/menu.css" rel="stylesheet">
-
-<script type="text/javascript" charset="utf-8">
-var $ = jQuery.noConflict();
-  $(window).load(function() {
-    $('.flexslider').flexslider({
-          animation: "slide"
-    });
-	
-	$(function() {
-		$('.show_menu').click(function(){
-				$('.menu').fadeIn();
-				$('.show_menu').fadeOut();
-				$('.hide_menu').fadeIn();
-		});
-		$('.hide_menu').click(function(){
-				$('.menu').fadeOut();
-				$('.show_menu').fadeIn();
-				$('.hide_menu').fadeOut();
-		});
-	});
-	
-
-  });
-  
-  jQuery(function($){
-	$(".tweet").tweet({
-	 modpath: 'js/twitter/',
-	  join_text: "auto",
-	  username: "SindevoThemes",
-	  count: 2,
-	  auto_join_text_default: "we said,",
-	  auto_join_text_ed: "we",
-	  auto_join_text_ing: "we were",
-	  auto_join_text_reply: "we replied",
-	  auto_join_text_url: "we were checking out",
-	  loading_text: "loading tweets..."
-	});
-  });
-</script>
+<script src="../js/scripts.js"></script>
+<link href="../css/menu.css" rel="stylesheet">
+<link href="../css/styles.css" rel="stylesheet">
 </head>
 <body>
+<!-- Begin container -->
 <div id="main_container">
 
-  <a class="show_menu" href="#">menu</a>
+  <a class="show_menu" href="#">Fit menu</a>
   <a class="hide_menu" href="#">close menu</a>
 
   <div id="header">
   	<div class="logo"><h1><a href="index.html">Get(F)it</a></h1></div>
-    
+
     <div class="menu">
         <ul id="main_menu">
             <li><a href="Feed.html">Feed</a> </li>
             <li><a href="Excercise.html">Today's Workout</a></li>
-            <li><a href="">Sign out</a></li> 
+            <li><a href="">Sign out</a></li>
         </ul>
      </div>
-     
+
   </div><!-- End of Header-->
-  
-  <div class="slider_container">
-		<div class="flexslider">
-	    <ul class="slides">
-	    	<li>
-	    		<a href="#"><img src="http://themes.sindevo.com/power-gym-html/images/slider/slide1.jpg" alt="" title=""/></a>
-	    	</li>
-	    	<li>
-	    		<a href="#"><img src="http://themes.sindevo.com/power-gym-html/images/slider/slide1.jpg" alt="" title=""/></a>
-	    	</li>
-	    	<li>
-	    		<a href="#"><img src="http://themes.sindevo.com/power-gym-html/images/slider/slide1.jpg" alt="" title=""/></a>
-	    		<div class="flex-caption">
-                     <p>Image with caption text...</p>
-                </div>
-	    	</li>
-	    </ul>
-	  </div>
-   </div>
-   
-    <!-- Elastislide Carousel -->
-    <div id="carousel" class="es-carousel-wrapper">
-        <div class="es-carousel">
-            <ul>
-                <li>
-                <div class="sport_icon"><a href="page.html"><img src="http://themes.sindevo.com/power-gym-html/images/sport_icon_running.png" alt="sport_icon_running" title="" /></a></div>
-                <h2><a href="page.html">Running</a></h2>
-                <p><a href="page.html">Winning means you're willing to go longer, work harder, and give more.</a></p>
-                </li>     
-                <li>
-                <div class="sport_icon"><a href="page.html"><img src="http://themes.sindevo.com/power-gym-html/images/sport_icon_dancing.png" alt="sport_icon_dancing" title="" /></a></div>
-                <h2><a href="page.html">Bodybuilding</a></h2>
-                <p><a href="page.html">Don't practice until you get it right. Practice until you can't get it wrong.</a></p>
-                </li> 
-                <li>
-                <div class="sport_icon"><a href="page.html"><img src="http://themes.sindevo.com/power-gym-html/images/sport_icon_swimming.png" alt="sport_icon_swimming" title="" /></a></div>
-                <h2><a href="page.html">Swimming</a></h2>
-                <p><a href="page.html">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm</a></p>
-                </li>
-                
-            </ul>
-        </div>
+
+  <!-- input Zipcode -->
+  <form id="location">
+    <div class="form-group">
+      <label for="lat">Enter your zipcode:</label>
+      <input id="zipcode" type="number">
+      <button type="submit">Submit</button>
     </div>
-    <!-- End Elastislide Carousel -->
-    
-   
-   </div>
-   
-   <div class="clear"></div>
+  </form>
+  <!-- End zipcode input -->
+  <div class="weather-now"><h2 id="weather"></h2></div>
+  <!-- Elastislide Carousel -->
+  <div id="carousel" class="es-carousel-wrapper">
+    <div class="es-carousel">
+      <ul>
+        <li>
+        <div class="sport_icon"><img src="" alt="sport_icon_dancing"/></div>
+        <h2 id="first-title"></h2>
+        <p id="first-body"></p>
+        </li>
+
+        <li>
+        <div class="sport_icon"><img id="yoga-icon" src="" alt="sport_icon_yoga"/></div>
+        <h2 id="second-title"></h2>
+        <p id="second-body"></p>
+        </li>
+
+        <li>
+        <div class="sport_icon"><img src="" alt="sport_icon_swimming"/></div>
+        <h2 id="third-title"></h2>
+        <p id="third-body"></p>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+  <!-- End Elastislide Carousel -->
+
+
 </div>
+<!-- End container -->
+<div class="clear"></div>
+</div>
+
+
 
 <script type="text/javascript">
 $('#carousel').elastislide({

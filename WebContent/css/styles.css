@@ -1,0 +1,10 @@
+.weather-now {
+  background-color: black;
+  margin-bottom: 5%;
+}
+
+#weather {
+  color: white;
+  padding: 2%;
+  text-align: center;
+}
