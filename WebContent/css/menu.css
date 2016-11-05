@@ -1,0 +1,10 @@
+@CHARSET "ISO-8859-1";
+
+.logo h1 {
+    float: left;
+    line-height: 30px !important;
+}
+
+body{
+	background: none !important;
+}
