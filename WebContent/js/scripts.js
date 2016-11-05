@@ -6,7 +6,7 @@ Weather.prototype.getWeather = function(zipcode) {
   $.get('http://api.openweathermap.org/data/2.5/weather?zip=' + zipcode + ',us&appid=4114b39093003af2a4520831ad994aa7')
   .then(function(response) {
     $('#weather').text("You'll see " + response.weather[0].description + " in " + response.name + " today.");
-    if (response.weather[0].description === "clear sky" || "scattered clouds") {
+    if (response.weather[0].description === "clear sky") {
       $('#first-title').text("Running");
       $('#first-body').text("Run like the wind! It's a beautiful day.");
       $('#second-title').text("Bike");
